@@ -42,7 +42,7 @@ class quemSeraLevado
 
         foreach ($this->arrayCometasGrupos as $arrayGrupoCometa) {
             $cometa = $this->processaCometasGrupos($arrayGrupoCometa['cometa']);
-            $grupo = $this->processaCometasGRupos($arrayGrupoCometa['grupo']);
+            $grupo = $this->processaCometasGrupos($arrayGrupoCometa['grupo']);
 
             if ($cometa != $grupo) {
                 $arrayNaoLevados[] = $arrayGrupoCometa['grupo'];
